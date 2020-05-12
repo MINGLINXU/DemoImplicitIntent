@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 //The action you want this intent to do;
                 //ACTION_SEND is used to indicate sending text
-                Intent email = new Intent(Intent.ACTION_SENDTO);
+                Intent email = new Intent(Intent.ACTION_SEND);
 
                 //Put essentials like email address, subject & body text
                 email.putExtra(Intent.EXTRA_EMAIL, new String[]{"jason_lim@rp.edu.sg"});
